@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - Coefficient de Diffusion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif; /* Nouvelle police */
+      background-color: #f9f9f9; /* Couleur de fond plus douce */
+      color: #333;
+    }
+
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color:rgb(148, 41, 107); /* Vert comme dans info */
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+      margin: 20px 0;
+      padding: 30px 20px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      color:rgb(202, 86, 167); /* Vert foncé */
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #444;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+      margin: 5px;
+    }
+
+    .btn-primary {
+      background-color:rgb(189, 80, 156); /* Vert */
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color:rgb(182, 71, 148); /* Vert foncé */
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      color:rgb(221, 113, 180); /* Vert */
+      border: 2px solidrgb(125, 45, 136);
+    }
+
+    .btn-outline:hover {
+      background-color: #E8F5E9; /* Vert clair */
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #888;
+      border-top: 1px solid #cfcfcf;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Calculateur de Coefficient de Diffusion</h1>
+    <p class="subtitle">Bonjour, Je suis Israa AOUIFI. Bienvenue sur notre site de calcul du coefficient de diffusion.</p>
+
+    <div class="card">
+      <h2>Accès</h2>
+      <p>Ce site vous aide à calculer le coefficient de diffusion via la méthode de HSU et CHEN, et à le comparer avec les données expérimentales grâce à une analyse d'erreur. Connectez-vous pour accéder ou inscrivez-vous si c'est votre première visite.</p>
+      <a href="/login" class="btn btn-outline">Connectez-vous</a>
+      <a href="/register" class="btn btn-primary">Inscrivez-vous</a>
+    </div>
+
+    <div class="card">
+      <h2>Guide du site</h2>
+      <p>Accédez au guide pour apprendre à manipuler le site et comprendre ses fonctionnalités.</p>
+      <a href="/about" class="btn btn-primary">En savoir plus</a>
+    </div>
+
+  <footer>
+    2025 Calculateur de Diffusion — Israa AOUIFI
+  </footer>
+
+</body>
+</html>
